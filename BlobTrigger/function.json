@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myInputBlob",
+      "path": "addata/{trigger}",
+      "connection": "Storage",
+      "direction": "in",
+      "type": "blobTrigger"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "bindings": [
+    {
+      "name": "Timer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "*/30 * * * * *"
+    },
+    {
+      "name": "myOutputBlob",
+      "type": "blob",
+      "path": "addata/adusers{DateTime}.csv",
+      "connection": "Storage",
+      "direction": "out"
+    }
+  ]
+}
